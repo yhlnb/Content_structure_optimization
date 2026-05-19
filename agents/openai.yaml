@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Structure Optimizer"
+  short_description: "诊断、重构和增强短视频内容结构，让脚本更完整更吸引人。"
+  default_prompt: "Use $video-structure-optimizer 帮我优化这条短视频的内容结构，让它主题更清楚、推进更顺、开头和结尾更有吸引力。"
