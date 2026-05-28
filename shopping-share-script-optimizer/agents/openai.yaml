@@ -1,0 +1,4 @@
+interface:
+  display_name: "购物分享口播优化"
+  short_description: "针对购物分享口播进行结构诊断、细节强化和可录制改稿"
+  default_prompt: "Use $shopping-share-script-optimizer to diagnose and rewrite this shopping-share spoken script in my natural style."
