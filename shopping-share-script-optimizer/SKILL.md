@@ -14,9 +14,11 @@ Use this skill to diagnose and rewrite shopping-share spoken scripts in the user
 3. Diagnose the script against the performance-informed checks below.
 4. Preserve the user's stable voice: relaxed, practical, low-key aesthetic, specific daily scenes, and light personal judgment.
 5. Strengthen every item with: why bought, when used, what problem it solves, and real sensory or usage feedback.
-6. Remove or rewrite generic praise when it does not create a visible, usable, or memorable detail.
-7. Add a clear ending payoff: most recommended, most surprising, best self-use, best gift, or highest-frequency item.
-8. Output a diagnosis plus a recordable revised version unless the user asks for diagnosis only.
+6. For clothing and bags, separate product facts from styling logic. Use product pages for material/size/strap/compartment facts, and use fashion styling references such as Vogue, GQ, MR PORTER, or brand editorial articles for outfit logic.
+7. When suggesting a styling claim, make the cause explicit: silhouette, proportion, material, color, or styling context. Avoid unsupported lines such as "wearing wide pants means it can be a shoulder bag."
+8. Remove or rewrite generic praise when it does not create a visible, usable, or memorable detail.
+9. Add a clear ending payoff: most recommended, most surprising, best self-use, best gift, or highest-frequency item.
+10. Output a diagnosis plus a recordable revised version unless the user asks for diagnosis only.
 
 ## Reference Routing
 
@@ -25,6 +27,7 @@ Read only the files needed for the current task:
 - For the user's stable口播人格、语气、常用句式、审美词库, read `references/voice-profile.md`.
 - For data-informed differences between `赞藏1000+`, `赞藏500-1000`, and `<500` samples, read `references/performance-patterns.md`.
 - For diagnosis dimensions, rewrite steps, item templates, and ending templates, read `references/rewrite-framework.md`.
+- For clothing/bag styling suggestions and source-backed fashion logic, read `references/fashion-source-framework.md`.
 
 ## Performance-Informed Checks
 
@@ -33,6 +36,8 @@ Always check whether the script includes:
 - Real scenes: 通勤、旅行、健身、咖啡店、送礼、家里、季节变化、工作日、周末.
 - Perceptible results: 能放什么、穿多久、喷多久、走多久、是否磨脚、是否黏腻、是否抗皱、是否显比例.
 - Personal judgment: 为什么买、怎么用、为什么适合自己、是否会高频使用.
+- Styling logic: 包型、衣长、肩线、裤型、面料垂坠、颜色关系、比例平衡是否讲清楚；搭配建议是否有可解释的穿搭依据.
+- Source grounding: When the user asks for references or when adding fashion expertise, include concise links to relevant styling articles and explain how the source maps to the script.
 - Light life texture: small defects, small jokes, real hesitation, already-used feedback, friend/family context.
 - Ending ranking: 最推荐、最惊喜、最适合自用、最适合送人、最高频.
 
@@ -52,6 +57,8 @@ Use this compact shape when fitting:
 ## 需要保留的口播优势
 
 ## 需要加强的细节
+
+## 穿搭参考来源
 
 ## 可直接录制的改稿版本
 

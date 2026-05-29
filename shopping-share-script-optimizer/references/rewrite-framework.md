@@ -11,6 +11,8 @@ Use this framework for diagnosis and rewrite.
 | Item progression | Is it a flat list or grouped by scene/category/use? |
 | Concrete details | Does each important item include visible, tactile, or usage detail? |
 | Scene value | Does the viewer know when they would use the item? |
+| Styling logic | For clothing and bags, does the script explain the outfit logic through silhouette, proportion, fabric, color, or function? |
+| Source grounding | If fashion expertise is added, is it grounded in a product source or a styling reference rather than a loose assumption? |
 | Personal voice | Does the wording sound like the user, not a brand brief? |
 | Trust | Are there small caveats, tradeoffs, comparisons, or used feedback? |
 | Ending | Does it leave a ranking, takeaway, or memory point? |
@@ -22,6 +24,7 @@ For each item, build 2-4 recordable sentences:
 ```text
 我买它主要是因为 [真实原因/场景]。
 最打动我的是 [具体功能/材质/版型/气味/容量]。
+搭配上我会把它放在 [具体风格/单品组合] 里，因为 [包型/衣长/裤型/面料/颜色逻辑]。
 实际用下来 [可感知结果/小缺点/对比]。
 所以如果你 [相似需求/场景]，这件会比较适合。
 ```
@@ -39,7 +42,7 @@ Use one of these when the original opening is too flat:
 
 - `这期是最近真正高频用到的几件，不只是新买，也有试过之后觉得能留下来的。`
 - `今天按场景来分享：通勤会用的、出门会带的、家里能提升氛围的。`
-- `如果你也喜欢低调、有质感、又不太费力的东西，这期可以参考。`
+- `如果你也喜欢低调、有质感、平时也容易搭的东西，这期可以参考。`
 - `这期里面有几件我本来只是试试，结果使用频率比想象中高。`
 
 ## Transition Templates
@@ -74,8 +77,9 @@ End with a concrete selection:
 
 - Keep the user's casual sentence rhythm.
 - Prefer concrete life details over bigger adjectives.
+- For outfit claims, explain the cause: soft bag shape, adjustable strap, short shirt length, straight/wide pants, fabric drape, color relationship, or scene.
+- When the user asks for references, include styling article links separately from the recordable script and explain the extracted principle in one sentence.
 - Keep product names but avoid making the script sound like a catalog.
 - Preserve honest caveats when present; add caveats only when supported by the draft.
 - Do not invent usage results, prices, medical effects, or unavailable performance claims.
 - When details are missing, offer a fill-in placeholder rather than fabricating.
-
